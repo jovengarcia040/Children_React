@@ -1,0 +1,38 @@
+.textfield input {
+  width: 596.32px;
+height: 35.62px;
+padding: 0;
+}
+
+.select {
+  width: 596.32px;
+height: 35.62px;
+}
+
+.select :global(.MuiSelect-select) {
+  padding: 6px;
+}
+
+.image {
+width: 229.35px;
+height: 229.35px;
+
+/* Gray 3 */
+
+border: 1px solid #828282;
+border-radius: 8px;
+margin-right: 25px;
+margin-bottom: 20px;
+vertical-align: middle;
+}
+
+.image img {
+  margin-top: 40px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}

@@ -1,0 +1,25 @@
+.iconWrapper {
+  width: 241.37px;
+height: 241.37px;
+border: 1.05238px solid #BDBDBD;
+border-radius: 8.41905px 0px 0px 8.41905px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.iconWrapper svg {
+  width: 72.79px;
+  height: 72.79px;
+  color: #7367F0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.wrapper > div {
+  margin-right: 20px;
+}

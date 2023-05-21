@@ -1,0 +1,59 @@
+.stepCircle {
+  width: 42.1px;
+  height: 42.1px;
+  background-color: #7367F0;
+  border-radius: 50%;
+  line-height: 42.1px;
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.step :global(.MuiStepLabel-iconContainer.Mui-disabled) .stepCircle {
+  background-color: #EDEDED;
+  color: #BCC6CF;
+}
+
+.step :global(.MuiStepLabel-iconContainer.Mui-completed) .stepCircle {
+  background-color: #EDEDED;
+  color: #7367F0;
+}
+
+.step :global(.MuiStepLabel-label.Mui-active) {
+  font-weight: bold;
+  color: #7367F0;
+}
+
+.step :global(.MuiStepLabel-label.Mui-completed) {
+  font-weight: bold;
+  color: #DAD6FB;
+}
+
+.step :global(.MuiStepLabel-label) {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.stepper {
+  margin-bottom: 73px;
+}
+
+button.next, button.next:hover {
+  width: 105.34px;
+  height: 48.39px;
+  
+  background: #7367F0;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 18px;
+}
+
+button.draft {
+width: 157.99px;
+height: 48.39px;
+
+border: 1px solid #7367F0;
+border-radius: 100px;
+color: #7367F0;
+font-size: 18px;
+}
