@@ -39,6 +39,10 @@ export default function HorizontalLinearStepper() {
     setActiveStep((prevActiveStep) => prevActiveStep - 1);
   };
 
+  const handleStepClick = (step) => {
+    setActiveStep(step);
+  };
+
   const handleSkip = () => {
     if (!isStepOptional(activeStep)) {
       // You probably want to guard against something like this,
@@ -76,7 +80,12 @@ export default function HorizontalLinearStepper() {
             stepProps.completed = false;
           }
           return (
-            <Step className={styles.step} key={label} {...stepProps}>
+            <Step
+              onClick={handleStepClick.bind(null, index)}
+              className={styles.step}
+              key={label}
+              {...stepProps}
+            >
               <StepLabel
                 StepIconComponent={StepIcon.bind(null, index + 1)}
                 {...labelProps}

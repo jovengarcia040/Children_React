@@ -57,3 +57,11 @@ border-radius: 100px;
 color: #7367F0;
 font-size: 18px;
 }
+
+button.next:hover {
+  background: #584fbb;
+}
+
+.step {
+  cursor: pointer;
+}

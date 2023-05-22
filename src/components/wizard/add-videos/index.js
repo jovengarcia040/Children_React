@@ -18,11 +18,11 @@ const AddVideos = () => {
           <input
             type="file"
             name="file"
-            id="fil1e"
+            id="file"
             class="inputfile"
             style={{ display: "none" }}
           />
-          <label for="file1">
+          <label for="file">
             {" "}
             <AddCircleOutlineOutlinedIcon />
           </label>

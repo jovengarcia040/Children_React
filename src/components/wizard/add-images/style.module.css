@@ -6,12 +6,14 @@ border-radius: 8.41905px 0px 0px 8.41905px;
 display: flex;
 align-items: center;
 justify-content: center;
+cursor: pointer;
 }
 
 .iconWrapper svg {
   width: 72.79px;
   height: 72.79px;
   color: #7367F0;
+  cursor: pointer;
 }
 
 .wrapper {
@@ -22,4 +24,19 @@ justify-content: center;
 
 .wrapper > div {
   margin-right: 20px;
+}
+
+.childImage {
+  position: relative;
+  left: -332px;
+}
+
+svg.bodyPlus {
+  position: absolute;
+    top: 40%;
+    left: 33%;
+    color: #7367F0;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
 }

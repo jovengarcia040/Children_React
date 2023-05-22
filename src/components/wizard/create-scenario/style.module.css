@@ -1,7 +1,8 @@
 .textfield input {
-  width: 596.32px;
+  width: 586.32px;
 height: 35.62px;
 padding: 0;
+padding-left: 10px;
 }
 
 .select {
@@ -24,6 +25,11 @@ border-radius: 8px;
 margin-right: 25px;
 margin-bottom: 20px;
 vertical-align: middle;
+cursor: pointer;
+}
+
+.image:hover {
+  border-color: #7367F0;
 }
 
 .image img {
@@ -35,4 +41,13 @@ vertical-align: middle;
   justify-content: flex-start;
   align-items: center;
   text-align: center;
+}
+.advance {
+  display: flex;
+  color: #7367F0;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.sceneText {
+  color: #828282;
 }
